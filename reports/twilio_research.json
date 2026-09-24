@@ -1,0 +1,59 @@
+{
+  "id": 22,
+  "app": "Twilio",
+  "category": "Communications and Messaging",
+  "website": "https://twilio.com/",
+  "description": "Twilio provides a REST API for managing communications resources such as calls, messages, phone numbers, and recordings.",
+  "auth_methods": [
+    "HTTP Basic"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Twilio provides a REST API for managing communications resources such as calls, messages, phone numbers, and recordings.",
+      "url": "https://www.twilio.com/docs/iam/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Twilio authenticates API requests using HTTP Basic authentication with API key and secret.",
+      "url": "https://www.twilio.com/docs/iam/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be created in the Twilio Console or via the API, indicating self‑serve credential provisioning.",
+      "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Twilio offers a REST API.",
+      "url": "https://www.twilio.com/docs/iam/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "The Twilio REST API covers accounts, phone numbers, calls, messages, recordings, usage, and more, indicating broad coverage.",
+      "url": "https://www.twilio.com/docs/iam/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can integrate with Twilio via raw HTTP, SDKs, or CLI, showing possible buildability.",
+      "url": "https://www.twilio.com/docs/usage/requests-to-twilio",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.9,
+  "verified": false,
+  "verification_notes": null
+}

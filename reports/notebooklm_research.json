@@ -1,0 +1,25 @@
+{
+  "id": 91,
+  "app": "NotebookLM",
+  "category": "AI, Research and Media-native",
+  "website": "https://cloud.google.com/gemini",
+  "description": "UNKNOWN",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Supports cloud-platform scope for authentication",
+      "url": "https://www.googleapis.com/auth/cloud-platform",
+      "source_type": "UNKNOWN",
+      "notes": null
+    }
+  ],
+  "confidence": 0.1,
+  "verified": false,
+  "verification_notes": null
+}

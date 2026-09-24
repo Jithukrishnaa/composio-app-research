@@ -1,0 +1,61 @@
+{
+  "id": 57,
+  "app": "Bright Data",
+  "category": "Data, SEO and Scraping",
+  "website": "https://brightdata.com/",
+  "description": "Bright Data offers API key and username/password authentication for its services.",
+  "auth_methods": [
+    "API key",
+    "Username/password"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST",
+    "Proxy"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Bright Data supports authentication via API key",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Bright Data supports authentication via username and password",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be generated in the account settings",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Bright Data provides a Proxy API that can be accessed using API key or username/password",
+      "url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API key authentication uses Bearer token in Authorization header",
+      "url": "https://docs.brightdata.com/api-reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Username/password authentication is used for native proxy access",
+      "url": "https://docs.brightdata.com/api-reference/proxy/proxy_api_auth",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,45 @@
+{
+  "id": 14,
+  "app": "Front",
+  "category": "Support and Helpdesk",
+  "website": "https://front.com/",
+  "description": "Front provides a developer platform with APIs and OAuth support for building custom support and helpdesk integrations.",
+  "auth_methods": [
+    "OAuth"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Front offers APIs that enable building custom integrations such as contact synchronizing and automated message triaging.",
+      "url": "https://dev.frontapp.com",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Front supports OAuth authentication and PKCE for its APIs.",
+      "url": "https://community.front.com/developer-q-a-37/do-you-support-oauth-how-can-i-get-my-oauth-credentials-and-update-redirect-urls-102",
+      "source_type": "Community",
+      "notes": null
+    },
+    {
+      "claim": "Developers can obtain OAuth credentials themselves via the Front developer settings page.",
+      "url": "https://community.front.com/developer-q-a-37/do-you-support-oauth-how-can-i-get-my-oauth-credentials-and-update-redirect-urls-102",
+      "source_type": "Community",
+      "notes": null
+    },
+    {
+      "claim": "Building custom integrations with Front is possible using the provided documentation and developer account.",
+      "url": "https://dev.frontapp.com",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

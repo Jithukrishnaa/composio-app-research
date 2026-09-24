@@ -1,0 +1,54 @@
+{
+  "id": 8,
+  "app": "Close",
+  "category": "CRM and Sales",
+  "website": "https://close.com/",
+  "description": "Close provides a RESTful API with JSON payloads for managing leads, contacts, opportunities, activities, and custom fields.",
+  "auth_methods": [
+    "API Keys",
+    "OAuth 2.0"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Close offers a RESTful API with JSON request/response bodies",
+      "url": "https://developer.close.com/api/overview.md",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Base URL is https://api.close.com/api/v1",
+      "url": "https://developer.close.com/api/overview.md",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication methods include API Keys using HTTP Basic Auth and OAuth 2.0",
+      "url": "https://developer.close.com/api/overview.md",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API supports Webhooks for real-time event notifications",
+      "url": "https://developer.close.com/api/overview.md",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API covers leads, contacts, opportunities, activities, and custom fields",
+      "url": "https://developer.close.com/api/overview.md",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

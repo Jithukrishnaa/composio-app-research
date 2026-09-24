@@ -1,0 +1,72 @@
+{
+  "id": 95,
+  "app": "Reducto",
+  "category": "AI, Research and Media-native",
+  "website": "https://reducto.ai/",
+  "description": "Reducto provides an API to parse documents into structured JSON for downstream LLM processing.",
+  "auth_methods": [
+    "API_KEY"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST",
+    "CLI"
+  ],
+  "api_breadth": "Narrow",
+  "mcp_status": "AVAILABLE",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Reducto offers a parse endpoint that returns structured JSON suitable for LLMs",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Example curl request to https://platform.reducto.ai/parse returning JSON chunks"
+    },
+    {
+      "claim": "Authentication is performed via an API key passed as a Bearer token",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Instruction to set REDUCTO_API_KEY and use Authorization: Bearer $REDUCTO_API_KEY header"
+    },
+    {
+      "claim": "API key can be obtained through a self‑serve login flow",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Commands 'reducto login' and 'reducto login' imply self‑service credential acquisition"
+    },
+    {
+      "claim": "Reducto provides a command‑line interface (CLI) for parsing documents",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Commands 'pip install reducto-cli' and 'reducto parse' illustrate CLI usage"
+    },
+    {
+      "claim": "Reducto supports a REST API for document parsing",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "cURL example shows POST request to https://platform.reducto.ai/parse"
+    },
+    {
+      "claim": "The API focus is limited to document parsing (narrow scope)",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Only parse endpoint is demonstrated"
+    },
+    {
+      "claim": "Reducto MCP server can be installed and used by agents",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Instruction to install with 'uvx mcp-server-reducto --login' indicates MCP availability"
+    },
+    {
+      "claim": "Integration with Reducto is possible using provided code examples",
+      "url": "https://docs.reducto.ai/quickstart",
+      "source_type": "documentation",
+      "notes": "Python, Node.js, Go, and cURL examples show buildable integration"
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": 4,
+  "app": "Attio",
+  "category": "CRM and Sales",
+  "website": "https://attio.com/",
+  "description": "Attio provides a REST API that can be accessed via OAuth 2.0, API keys, or HTTP Basic authentication.",
+  "auth_methods": [
+    "OAuth 2.0",
+    "API key",
+    "HTTP Basic"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Attio supports OAuth 2.0 authentication for its REST API.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Attio supports API key authentication for single‑workspace access.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Attio supports HTTP Basic authentication where the token is the username and the password is blank.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Attio provides a REST API.",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can generate API keys themselves in the developer settings page (self‑serve).",
+      "url": "https://docs.attio.com/rest-api/guides/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Building an app that uses Attio's API is possible via OAuth or API key flows as described in the documentation.",
+      "url": "https://docs.attio.com/rest-api/tutorials/connect-an-app-through-oauth",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.85,
+  "verified": false,
+  "verification_notes": null
+}

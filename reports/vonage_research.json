@@ -1,0 +1,60 @@
+{
+  "id": 30,
+  "app": "Vonage",
+  "category": "Communications and Messaging",
+  "website": "https://developer.vonage.com/",
+  "description": "Vonage offers a range of communications APIs including SMS, Voice, Video, and other services.",
+  "auth_methods": [
+    "API Key and Secret",
+    "Basic Authentication",
+    "JWT",
+    "Digest Authentication"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Vonage offers a range of communications APIs including SMS, Voice, Video, and other services.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "Table lists many APIs such as SMS, Voice 3, Video, Messages, etc."
+    },
+    {
+      "claim": "Authentication methods supported are API Key and Secret, Basic Authentication, JWT, and Digest Authentication.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "Evidence 1 lists API Key and Secret, JWT, and notes Digest for SIP Trunking; also mentions Basic Authentication."
+    },
+    {
+      "claim": "Credentials (API key and secret) are provided when a Vonage account is created, enabling self‑serve access.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "Evidence 1 describes API key and secret creation in account settings."
+    },
+    {
+      "claim": "Vonage provides a broad set of APIs across many product lines.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "Evidence 1 table enumerates numerous APIs (SMS, Voice, Video, etc.)."
+    },
+    {
+      "claim": "MCP availability is not explicitly documented in the supplied evidence.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "No mention of MCP status."
+    },
+    {
+      "claim": "Buildability cannot be determined from the supplied evidence.",
+      "url": "https://developer.vonage.com/en/getting-started/concepts/authentication",
+      "source_type": "documentation",
+      "notes": "No information on integration constraints."
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

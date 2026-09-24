@@ -1,0 +1,47 @@
+{
+  "id": 60,
+  "app": "Clay",
+  "category": "Data, SEO and Scraping",
+  "website": "https://clay.com/",
+  "description": "Clay provides a public API that requires an API key in the request header, allowing developers to integrate its services into applications.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Clay API authentication requires a Clay API key provided in the \"clay-api-key\" header",
+      "url": "https://developers.clay.com/public-api/authentication",
+      "source_type": "Webpage",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be created by users under Settings → Account → API keys (beta)",
+      "url": "https://developers.clay.com/quickstart",
+      "source_type": "Webpage",
+      "notes": null
+    },
+    {
+      "claim": "Developers can call the Clay Public API from their own applications and services such as backend jobs and internal tools",
+      "url": "https://developers.clay.com/quickstart",
+      "source_type": "Webpage",
+      "notes": null
+    },
+    {
+      "claim": "The Clay Public API is accessed via HTTP endpoints (e.g., https://api.clay.com/public/v0/me) using standard REST conventions",
+      "url": "https://developers.clay.com/public-api/authentication",
+      "source_type": "Webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

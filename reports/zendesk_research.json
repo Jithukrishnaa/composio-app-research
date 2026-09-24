@@ -1,0 +1,47 @@
+{
+  "id": 11,
+  "app": "Zendesk",
+  "category": "Support and Helpdesk",
+  "website": "https://zendesk.com/",
+  "description": "Zendesk requires a verified user to authenticate API requests using OAuth access tokens, basic authentication, or API tokens.",
+  "auth_methods": [
+    "OAuth access token",
+    "Basic authentication",
+    "API token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Zendesk supports using OAuth access tokens to authenticate API requests and requires a verified user",
+      "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Zendesk allows authentication via basic authentication, API token, or OAuth access token",
+      "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can obtain their own OAuth tokens or API tokens, indicating self‑serve credential access",
+      "url": "https://support.zendesk.com/hc/en-us/articles/4408831452954-How-can-I-authenticate-API-requests",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Supported authentication methods are OAuth access token, basic authentication, and API token",
+      "url": "https://developer.zendesk.com/api-reference/introduction/security-and-auth/",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

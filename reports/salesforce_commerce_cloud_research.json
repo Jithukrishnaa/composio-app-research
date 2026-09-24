@@ -1,0 +1,55 @@
+{
+  "id": 44,
+  "app": "Salesforce Commerce Cloud",
+  "category": "Ecommerce",
+  "website": "https://developer.salesforce.com/docs/commerce",
+  "description": "Salesforce Commerce Cloud provides B2C Commerce APIs secured with OAuth 2.1 JWT bearer tokens.",
+  "auth_methods": [
+    "Bearer",
+    "OAuth 2.1"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "Admin",
+    "Shopper"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Salesforce Commerce Cloud B2C Commerce APIs are authorized using OAuth 2.1 scopes and JWT bearer tokens.",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication uses the Bearer token scheme for API requests.",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Shopper APIs are secured with the Shopper Login and API Access Service (SLAS).",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization-for-shopper-apis.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Access to APIs requires roles such as Account Administrator and SLAS Organization Administrator, indicating gated credential access.",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization-for-shopper-apis.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "The platform provides both SCAPI Admin APIs and Shopper APIs.",
+      "url": "https://developer.salesforce.com/docs/commerce/commerce-api/guide/authorization.html",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,59 @@
+{
+  "id": 17,
+  "app": "Plain",
+  "category": "Support and Helpdesk",
+  "website": "https://plain.com/",
+  "description": "Plain offers a GraphQL API that lets teams access and manage customer data, usage, and conversations.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Plain provides a GraphQL API at https://core-api.uk.plain.com/graphql/v1",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication uses an API key passed as a Bearer token in the Authorization header",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The API enables pulling customer lists, upserting records, retrieving usage and billing info, and fetching conversation data",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be generated from Settings → API Keys in the Plain workspace, allowing self‑serve credential access",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The existence of the API indicates that building integrations is possible",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The API supports a wide range of actions across customer data, billing, and conversation retrieval, indicating broad coverage",
+      "url": "https://help.plain.com/article/api-quickstart",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

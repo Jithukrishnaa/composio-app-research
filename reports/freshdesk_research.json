@@ -1,0 +1,57 @@
+{
+  "id": 13,
+  "app": "Freshdesk",
+  "category": "Support and Helpdesk",
+  "website": "https://freshdesk.com/",
+  "description": "Freshdesk is a cloud‑based customer support platform offering helpdesk functionality.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Freshdesk is a cloud‑based customer support platform offering helpdesk functionality",
+      "url": "https://developer.freshdesk.com/api/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Freshdesk provides REST APIs",
+      "url": "https://developer.freshdesk.com/api/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Credential access type not specified in the documentation",
+      "url": "https://developer.freshdesk.com/api/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Breadth of API coverage not specified in the documentation",
+      "url": "https://developer.freshdesk.com/api/v1/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "MCP status not mentioned in the documentation",
+      "url": "https://developer.freshdesk.com/api/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "No information on buildability of Freshdesk integrations",
+      "url": "https://developer.freshdesk.com/api/",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

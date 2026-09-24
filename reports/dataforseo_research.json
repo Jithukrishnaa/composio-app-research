@@ -1,0 +1,48 @@
+{
+  "id": 51,
+  "app": "DataForSEO",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.dataforseo.com/",
+  "description": "DataForSEO provides a RESTful API for accessing SERP data, page screenshots, and AI summaries using Basic Authentication.",
+  "auth_methods": [
+    "Basic Authentication"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "SERP",
+    "AI Summary"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "DataForSEO uses Basic Authentication via the Authorization header.",
+      "url": "https://docs.dataforseo.com/v3/auth/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Create a free account to obtain API login and password for authentication.",
+      "url": "https://docs.dataforseo.com/v2/auth/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "DataForSEO offers SERP API endpoints including Google SERP, page screenshot, and AI summary.",
+      "url": "https://docs.dataforseo.com/v3/llms.txt/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "APIs can be called from any programming language using Basic Auth, indicating integration is possible.",
+      "url": "https://docs.dataforseo.com/v3/auth/",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,82 @@
+{
+  "id": 9,
+  "app": "Copper",
+  "category": "CRM and Sales",
+  "website": "https://copper.com/",
+  "description": "Copper provides a developer API accessible via API keys and OAuth2.0 authentication.",
+  "auth_methods": [
+    "API Keys",
+    "OAuth2.0"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Copper provides a developer API accessible via API keys and OAuth2.0 authentication.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be generated in the Copper web app under System settings > API Keys.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "OAuth2.0 is a supported authentication method.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "API keys are suitable for individual users.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "OAuth2.0 is the preferred approach for partner integrations.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Authentication token must be included in request header along with the email address of the user who generated the token.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Users can self‑serve API credentials by generating API keys in the UI.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "API breadth is not specified in the evidence.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "MCP availability is not mentioned in the evidence.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Integration build is possible using the Copper Developer API.",
+      "url": "https://www.developer.copper.com/introduction/authentication.html",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

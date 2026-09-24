@@ -1,0 +1,50 @@
+{
+  "id": 61,
+  "app": "GitHub",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.github.com/rest",
+  "description": "GitHub provides a REST API that returns user data such as login and profile information.",
+  "auth_methods": [
+    "Personal Access Token",
+    "GitHub App Token",
+    "GitHub Actions GITHUB_TOKEN",
+    "JSON Web Token (JWT)"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "GitHub's REST API returns user information including login, id, and profile details.",
+      "url": "https://api.github.com/user",
+      "source_type": "API Response",
+      "notes": null
+    },
+    {
+      "claim": "GitHub supports authentication via personal access tokens, GitHub App tokens, and the built-in GITHUB_TOKEN using the Authorization header.",
+      "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "When using a JSON web token, the Authorization header must use Bearer scheme.",
+      "url": "https://docs.github.com/en/rest/authentication/authenticating-to-the-rest-api",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "GitHub offers a REST API for accessing its services.",
+      "url": "https://docs.github.com/en/rest/authentication",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

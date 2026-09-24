@@ -1,0 +1,31 @@
+{
+  "id": 50,
+  "app": "fanbasis",
+  "category": "Ecommerce",
+  "website": "https://fanbasis.com/",
+  "description": "Fanbasis (now Commas) is a platform that lets creators build and sell digital products and services with integrated payments.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Fanbasis has rebranded to Commas and offers a platform to create, sell, and get paid with integrated payments",
+      "url": "https://www.fanbasis.com/messaging-terms",
+      "source_type": "webpage",
+      "notes": "Page describes the platform as \"One place to create, sell, and get paid, with payments built in\""
+    },
+    {
+      "claim": "The site provides contact options for account, selling, partnerships, or press inquiries",
+      "url": "https://www.fanbasis.com/contact-us",
+      "source_type": "webpage",
+      "notes": "Contact page lists purpose of messages"
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

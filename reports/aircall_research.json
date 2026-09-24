@@ -1,0 +1,31 @@
+{
+  "id": 29,
+  "app": "Aircall",
+  "category": "Communications and Messaging",
+  "website": "https://aircall.io/",
+  "description": "Aircall provides a v1 API with endpoints for company, users, numbers, calls, and contacts.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Aircall offers a v1 API with endpoints for company, users, numbers, calls, and contacts.",
+      "url": "https://api.aircall.io/v1",
+      "source_type": "API",
+      "notes": null
+    },
+    {
+      "claim": "Aircall API ping endpoint returns pong.",
+      "url": "https://api.aircall.io/v1/ping",
+      "source_type": "API",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,42 @@
+{
+  "id": 52,
+  "app": "SE Ranking",
+  "category": "Data, SEO and Scraping",
+  "website": "https://seranking.com/api",
+  "description": "SE Ranking provides a Data API for bulk SEO data and a Project API for managing SEO projects, both accessed via a single API key.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "Data API",
+    "Project API"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "SE Ranking offers two APIs: Data API and Project API.",
+      "url": "https://seranking.com/api/how-to-get-api/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Both APIs are authenticated using a single API key.",
+      "url": "https://seranking.com/api/how-to-get-api/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "All Essential, Pro, Business, Core, Growth, and Enterprise plans include Data API access with a monthly credit allowance.",
+      "url": "https://seranking.com/api/how-to-get-api/",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

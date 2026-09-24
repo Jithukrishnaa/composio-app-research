@@ -1,0 +1,56 @@
+{
+  "id": 28,
+  "app": "WhatsApp Business",
+  "category": "Communications and Messaging",
+  "website": "https://developers.facebook.com/docs/whatsapp",
+  "description": "WhatsApp Business Platform provides APIs for businesses to programmatically send messages, make calls, and manage account assets.",
+  "auth_methods": [
+    "Access Token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "Messaging",
+    "Calling",
+    "Group Management",
+    "Business Management"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "WhatsApp Business Platform provides APIs for businesses to programmatically send messages, make calls, and manage account assets.",
+      "url": "https://developers.facebook.com/docs/whatsapp/overview/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can self‑serve register and create a Meta app to obtain access.",
+      "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/get-started/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "A sample app and get‑started guide are provided, indicating that building an integration is possible.",
+      "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/get-started/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Access tokens are used to authenticate API calls.",
+      "url": "https://developers.facebook.com/docs/whatsapp/business-management-api/get-started/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "The platform offers a Cloud API for messaging, calling, and groups, and a Business Management API for managing phone numbers and templates.",
+      "url": "https://developers.facebook.com/docs/whatsapp/overview/",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

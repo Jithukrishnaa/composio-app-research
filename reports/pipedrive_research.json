@@ -1,0 +1,67 @@
+{
+  "id": 3,
+  "app": "Pipedrive",
+  "category": "CRM and Sales",
+  "website": "https://pipedrive.com/",
+  "description": "Pipedrive provides a RESTful API that allows creating and managing leads, deals, contacts, and other CRM entities.",
+  "auth_methods": [
+    "API token",
+    "OAuth"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Pipedrive provides a RESTful API for managing leads, deals, contacts and other CRM entities.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "website",
+      "notes": "API Reference page lists endpoints for Leads, Deals, Persons, Organizations, etc."
+    },
+    {
+      "claim": "Authentication can be done via API token or OAuth.",
+      "url": "https://developers.pipedrive.com/tutorials/adding-leads-to-pipedrive",
+      "source_type": "website",
+      "notes": "Tutorial mentions using either an API token or OAuth."
+    },
+    {
+      "claim": "Supported API types include REST and Webhooks.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "website",
+      "notes": "API reference describes a RESTful API and includes a Webhooks endpoint."
+    },
+    {
+      "claim": "The API covers a broad range of core product functionality.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "website",
+      "notes": "API and extension points cover the majority of core product's functionality."
+    },
+    {
+      "claim": "Credential access type is unknown from the provided documentation.",
+      "url": "https://developers.pipedrive.com/tutorials/adding-leads-to-pipedrive",
+      "source_type": "website",
+      "notes": "No information on credential access model."
+    },
+    {
+      "claim": "MCP status is unknown from the provided documentation.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "website",
+      "notes": "No mention of MCP availability."
+    },
+    {
+      "claim": "Building integrations is possible; no blockers identified.",
+      "url": "https://developers.pipedrive.com/docs/api/v1",
+      "source_type": "website",
+      "notes": "Documentation does not specify any blockers."
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

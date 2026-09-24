@@ -1,0 +1,75 @@
+{
+  "id": 45,
+  "app": "Magento",
+  "category": "Ecommerce",
+  "website": "https://developer.adobe.com/commerce/",
+  "description": "Magento provides a REST API for ecommerce operations and integrations.",
+  "auth_methods": [
+    "OAuth 2.0 client credentials",
+    "OAuth 2.0 user authentication",
+    "OAuth 1.0a",
+    "Token",
+    "Login credentials"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Server-to-server authentication using OAuth 2.0 client credentials is supported for automated integrations.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "User authentication via OAuth 2.0 is supported for admin users.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Magento provides a REST API for ecommerce operations and integrations.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "The REST API supports multiple authentication methods including OAuth 1.0a, token-based, and login credentials.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "The REST API offers a wide range of endpoints, indicating broad API breadth.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "User authentication requires an active Adobe Commerce Cloud Service license and access to Adobe Developer Console, indicating gated credential access.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/user",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "OAuth credentials are created through the Adobe Developer Console for user authentication.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/authentication/user",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "The platform exposes REST APIs.",
+      "url": "https://developer.adobe.com/commerce/webapi/rest/",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

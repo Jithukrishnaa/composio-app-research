@@ -1,0 +1,41 @@
+{
+  "id": 26,
+  "app": "Discord",
+  "category": "Communications and Messaging",
+  "website": "https://discord.com/",
+  "description": "Discord provides a REST API for interacting with its data and an OAuth2 authorization endpoint.",
+  "auth_methods": [
+    "OAuth2"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Discord provides a REST API for interacting with its data.",
+      "url": "https://docs.discord.com/developers/reference",
+      "source_type": "webpage",
+      "notes": "Documentation states the Discord API is a REST API."
+    },
+    {
+      "claim": "Discord offers an OAuth2 authorization endpoint at https://discord.com/oauth2/authorize.",
+      "url": "https://discord.com/oauth2/authorize",
+      "source_type": "webpage",
+      "notes": "OAuth2 authorize URL present."
+    },
+    {
+      "claim": "Discord API base URL is https://discord.com/api.",
+      "url": "https://docs.discord.com/developers/reference",
+      "source_type": "webpage",
+      "notes": "Base URL shown in documentation."
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

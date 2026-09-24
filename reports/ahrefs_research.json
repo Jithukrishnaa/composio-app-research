@@ -1,0 +1,60 @@
+{
+  "id": 53,
+  "app": "Ahrefs",
+  "category": "Data, SEO and Scraping",
+  "website": "https://ahrefs.com/api",
+  "description": "Ahrefs provides a REST API offering SEO and marketing data across tools such as Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, Management, Subscription info and public endpoints.",
+  "auth_methods": [
+    "OAuth",
+    "API Key"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Ahrefs API offers REST endpoints for tools such as Site Explorer, Keywords Explorer, SERP Overview, Rank Tracker, Site Audit, Brand Radar, Social Media Management, Content Helper, Management, Subscription information and public endpoints.",
+      "url": "https://docs.ahrefs.com/api/docs/introduction.md",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication can be performed via OAuth flow.",
+      "url": "https://docs.ahrefs.com/ahrefs-connect/docs/how-it-works.md",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication can also be done by sending an API key as a bearer token in the Authorization header for most endpoints.",
+      "url": "https://docs.ahrefs.com/llms.txt",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "API access requires an eligible paid plan (or limited free test queries), indicating gated credential access.",
+      "url": "https://docs.ahrefs.com/api/docs/introduction.md",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The API provides a broad set of endpoints across many SEO tools, indicating broad API breadth.",
+      "url": "https://docs.ahrefs.com/api/docs/introduction.md",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can build integrations using OAuth or API key authentication, making integration possible.",
+      "url": "https://docs.ahrefs.com/ahrefs-connect/docs/how-it-works.md",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

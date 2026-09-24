@@ -1,0 +1,33 @@
+{
+  "id": 59,
+  "app": "Waterfall.io",
+  "category": "Data, SEO and Scraping",
+  "website": "https://waterfall.io/",
+  "description": "Waterfall.io provides an API that requires an x-api-key for authentication.",
+  "auth_methods": [
+    "API Key"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "All requests are authenticated using the x-api-key header",
+      "url": "https://docs.waterfall.io/v1/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Waterfall.io provides an API that requires an x-api-key for authentication",
+      "url": "https://docs.waterfall.io/v1/authentication",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.4,
+  "verified": false,
+  "verification_notes": null
+}

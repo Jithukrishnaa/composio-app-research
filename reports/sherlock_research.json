@@ -1,0 +1,45 @@
+{
+  "id": 58,
+  "app": "Sherlock",
+  "category": "Data, SEO and Scraping",
+  "website": "https://github.com/sherlock-project/sherlock",
+  "description": "Sherlock provides a Python-based REST API built with Django REST Framework for querying username availability across multiple sites.",
+  "auth_methods": [],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Sherlock offers a REST API built with Django REST Framework",
+      "url": "https://github.com/sherlock-project/api",
+      "source_type": "GitHub",
+      "notes": "README describes \"Sherlock API\" built on DRF."
+    },
+    {
+      "claim": "The API does not require authentication and is open",
+      "url": "https://github.com/turian/sherlock-rest/",
+      "source_type": "GitHub",
+      "notes": "README states \"This API does no authentication and is open.\""
+    },
+    {
+      "claim": "The API is a JSON REST API for Sherlock",
+      "url": "https://github.com/turian/sherlock-rest/",
+      "source_type": "GitHub",
+      "notes": "Repository description: \"A Django JSON REST API for Sherlock\"."
+    },
+    {
+      "claim": "The API can be self‑served by cloning the repository and running the server",
+      "url": "https://github.com/sherlock-project/api",
+      "source_type": "GitHub",
+      "notes": "Installation and run instructions provided in README."
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

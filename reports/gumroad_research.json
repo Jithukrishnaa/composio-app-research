@@ -1,0 +1,41 @@
+{
+  "id": 48,
+  "app": "Gumroad",
+  "category": "Ecommerce",
+  "website": "https://gumroad.com/api",
+  "description": "Gumroad provides a RESTful OAuth API for e‑commerce functionalities.",
+  "auth_methods": [
+    "OAuth"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Gumroad provides a RESTful OAuth API.",
+      "url": "https://gumroad.com/api",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Authentication uses OAuth access tokens generated via the application page.",
+      "url": "https://gumroad.com/api",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Credential access is self‑serve via generating an access token on the application page.",
+      "url": "https://gumroad.com/api",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

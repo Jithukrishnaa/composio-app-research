@@ -1,0 +1,80 @@
+{
+  "id": 5,
+  "app": "Twenty",
+  "category": "CRM and Sales",
+  "website": "https://twenty.com/",
+  "description": "Twenty is a full-featured CRM platform offering customizable data models, automation, and developer‑first APIs.",
+  "auth_methods": [
+    "API Key",
+    "OAuth 2.0"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST",
+    "GraphQL",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Twenty provides both REST and GraphQL APIs generated from each workspace's schema.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication for the APIs uses an API key supplied as a Bearer token.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth 2.0 is supported with authorization code flow (PKCE) and client‑credentials grant.",
+      "url": "https://docs.twenty.com/developers/extend/oauth",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API keys can be created by users in Settings → API & Webhooks → + Create key, a self‑service process.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth clients can be registered dynamically via RFC 7591 without manual dashboard setup.",
+      "url": "https://docs.twenty.com/developers/extend/oauth",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Webhooks are listed alongside API settings, indicating webhook capabilities are available.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": "Mention of \"API & Webhooks\" page suggests webhook support."
+    },
+    {
+      "claim": "The combination of core and metadata APIs, plus both REST and GraphQL, provides broad API coverage.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can obtain credentials (API key or OAuth client) via self‑service flows, enabling integration building.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "No blockers are identified; external developers can build integrations using the provided APIs.",
+      "url": "https://docs.twenty.com/developers/extend/api",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.75,
+  "verified": false,
+  "verification_notes": null
+}

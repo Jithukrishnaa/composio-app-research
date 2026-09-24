@@ -1,0 +1,54 @@
+{
+  "id": 15,
+  "app": "Pylon",
+  "category": "Support and Helpdesk",
+  "website": "https://usepylon.com/",
+  "description": "Pylon offers a RESTful API and webhooks to programmatically access and manage support tickets and related data.",
+  "auth_methods": [
+    "Bearer"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "API",
+    "Webhooks"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Pylon API uses Bearer authentication via the Authorization header",
+      "url": "https://docs.usepylon.com/pylon-docs/developer/api/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "API tokens can be generated in the Pylon dashboard by users with permission, otherwise an admin must create them",
+      "url": "https://support.usepylon.com/articles/4735104435-how-do-i-create-an-api-token",
+      "source_type": "knowledge_base",
+      "notes": null
+    },
+    {
+      "claim": "Pylon provides an API and webhooks to programmatically fetch and create data across objects",
+      "url": "https://www.usepylon.com/integrations/api-webhooks",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "The API spans a full range of objects, indicating broad coverage",
+      "url": "https://www.usepylon.com/integrations/api-webhooks",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Only admin users can create API tokens",
+      "url": "https://www.usepylon.com/integrations/api-webhooks",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

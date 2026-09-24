@@ -1,0 +1,54 @@
+{
+  "id": 31,
+  "app": "Google Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.google.com/google-ads",
+  "description": "Google Ads provides a REST API that requires OAuth 2.0 credentials and a developer token to manage ad accounts.",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Service Account"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Google Ads API requires OAuth 2.0 credentials and a developer token",
+      "url": "https://developers.google.com/google-ads/api/rest/auth",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "OAuth 2.0 user authentication flow is supported",
+      "url": "https://developers.google.com/google-ads/api/docs/oauth/user-authentication",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Service account flow is supported",
+      "url": "https://developers.google.com/google-ads/api/rest/auth",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Google Ads API uses a REST interface",
+      "url": "https://developers.google.com/google-ads/api/rest/auth",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "login-customer-id header is required for manager account calls",
+      "url": "https://developers.google.com/google-ads/api/rest/auth",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

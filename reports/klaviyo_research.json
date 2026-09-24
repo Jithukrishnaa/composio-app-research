@@ -1,0 +1,44 @@
+{
+  "id": 36,
+  "app": "Klaviyo",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.klaviyo.com/",
+  "description": "Klaviyo offers server‑side and client‑side APIs authenticated via private keys, OAuth, or public keys.",
+  "auth_methods": [
+    "private key",
+    "OAuth",
+    "public key"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "server-side",
+    "client-side"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Klaviyo provides three authentication methods: private key authentication, OAuth, and public key authentication.",
+      "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Klaviyo offers server‑side and client‑side APIs.",
+      "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Majority of Klaviyo’s APIs are server‑side endpoints; client‑side APIs are used for tracking from browsers.",
+      "url": "https://developers.klaviyo.com/en/docs/authenticate_",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

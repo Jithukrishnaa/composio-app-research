@@ -1,0 +1,60 @@
+{
+  "id": 46,
+  "app": "Squarespace",
+  "category": "Ecommerce",
+  "website": "https://developers.squarespace.com/",
+  "description": "Squarespace provides Commerce APIs that let developers manage products, orders, inventory, discounts, contacts, analytics, transactions, and webhooks via authenticated HTTP requests.",
+  "auth_methods": [
+    "API Key",
+    "OAuth"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Squarespace supports authentication via API key or OAuth access token",
+      "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Developers can generate an API key or start the OAuth process themselves",
+      "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Squarespace Commerce APIs are accessed via HTTPS REST requests using curl syntax",
+      "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Squarespace offers a broad set of Commerce APIs covering Forms, Inventory, Orders, Products, Contacts, Discounts, Webhook Subscriptions, Profiles, Transactions, and Analytics",
+      "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Integrations can be built by generating an API key or OAuth client and making HTTPS requests, indicating possible buildability",
+      "url": "https://developers.squarespace.com/commerce-apis/making-requests",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "MCP status is not mentioned in the provided documentation",
+      "url": "https://developers.squarespace.com/commerce-apis/authentication-and-permissions",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

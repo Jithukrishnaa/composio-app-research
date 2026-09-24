@@ -1,0 +1,48 @@
+{
+  "id": 55,
+  "app": "Apify",
+  "category": "Data, SEO and Scraping",
+  "website": "https://docs.apify.com/",
+  "description": "Apify provides a REST API that allows programmatic control of the platform using API tokens.",
+  "auth_methods": [
+    "Authorization header",
+    "token query parameter"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Apify provides a REST API for programmatic control of the platform",
+      "url": "https://docs.apify.com/integrations/api",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication can be done via Authorization header or token query parameter",
+      "url": "https://docs.apify.com/integrations/api",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "API tokens are obtained by users in the console (self‑serve)",
+      "url": "https://docs.apify.com/integrations/api",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The API is RESTful and uses JSON encoding",
+      "url": "https://docs.apify.com/api/v2",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

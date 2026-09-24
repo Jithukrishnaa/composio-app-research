@@ -1,0 +1,73 @@
+{
+  "id": 35,
+  "app": "Mailchimp",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://mailchimp.com/developer/",
+  "description": "Mailchimp offers a Marketing API that provides programmatic access to its data and functionality for managing audiences, campaigns, and more.",
+  "auth_methods": [
+    "OAuth 2",
+    "API Key"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "Marketing API",
+    "Export API"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "The Mailchimp Marketing API provides programmatic access to Mailchimp data and functionality for managing audiences, campaigns, and more.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can obtain an API key after creating a Mailchimp account, enabling self‑serve access.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth 2 authentication is supported for accessing Mailchimp Marketing API data on behalf of other users.",
+      "url": "https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/",
+      "source_type": "Guide",
+      "notes": null
+    },
+    {
+      "claim": "API key authentication is supported for the Marketing API when accessing one’s own Mailchimp account.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The Marketing API is version 3.0.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Mailchimp also offers a single‑purpose Export API version 1.0.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "The API provides a broad set of capabilities including audience management, campaign analytics, webhooks, e‑commerce integration, batch operations, and a mobile SDK.",
+      "url": "https://mailchimp.com/developer/marketing/docs/fundamentals/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can build integrations using the Marketing API and OAuth 2, indicating the platform is buildable.",
+      "url": "https://mailchimp.com/developer/marketing/guides/access-user-data-oauth-2/",
+      "source_type": "Guide",
+      "notes": null
+    }
+  ],
+  "confidence": 0.85,
+  "verified": false,
+  "verification_notes": null
+}

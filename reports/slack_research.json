@@ -1,0 +1,31 @@
+{
+  "id": 21,
+  "app": "Slack",
+  "category": "Communications and Messaging",
+  "website": "https://slack.com/",
+  "description": "Slack provides developer tools and documentation for building and managing apps on its platform.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Slack provides developer tools and documentation for building and managing apps on its platform.",
+      "url": "https://api.slack.com/changelog/2021-08-changes-to-admin-apps-requests",
+      "source_type": "Web Page",
+      "notes": "Changelog mentions new docs site and developer tools updates."
+    },
+    {
+      "claim": "Building apps is possible using Slack's developer tools, such as the `slack install` command for Bolt Framework apps.",
+      "url": "https://api.slack.com/changelog/2021-08-changes-to-admin-apps-requests",
+      "source_type": "Web Page",
+      "notes": "Changelog notes updated slack install command to create and install Bolt apps."
+    }
+  ],
+  "confidence": 0.5,
+  "verified": false,
+  "verification_notes": null
+}

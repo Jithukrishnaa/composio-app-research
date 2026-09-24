@@ -1,0 +1,53 @@
+{
+  "id": 10,
+  "app": "DealCloud",
+  "category": "CRM and Sales",
+  "website": "https://api.docs.dealcloud.com/",
+  "description": "DealCloud provides a REST API accessed via OAuth2 client credentials using an API key and scoped bearer tokens.",
+  "auth_methods": [
+    "OAuth2 Client Credentials"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "DealCloud uses OAuth2 Client Credentials flow for authentication",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "DealCloud API endpoints are accessed via REST URLs (e.g., api/rest/v1/...)",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Obtaining an API key requires user group permissions set by an admin, indicating gated credential access",
+      "url": "https://api.docs.dealcloud.com/docs/apikeys",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "DealCloud offers multiple scoped APIs covering user management, data, publications, relationship intelligence import, and backups, indicating broad API coverage",
+      "url": "https://api.docs.dealcloud.com/docs/token",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "DealCloud API can be integrated using standard OAuth2 token flow, indicating possible buildability",
+      "url": "https://api.docs.dealcloud.com/sdk/python-1.X/configuration/authentication",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

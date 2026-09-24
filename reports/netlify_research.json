@@ -1,0 +1,39 @@
+{
+  "id": 63,
+  "app": "Netlify",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://docs.netlify.com/api/",
+  "description": "Netlify provides a REST API for managing site deployments, form submissions, DNS, and other platform features.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Netlify provides a REST API for managing site deployments, form submissions, DNS, and other platform features.",
+      "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+      "source_type": "website",
+      "notes": null
+    },
+    {
+      "claim": "Netlify offers a REST API.",
+      "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+      "source_type": "website",
+      "notes": null
+    },
+    {
+      "claim": "Netlify API covers many functionalities, indicating broad coverage.",
+      "url": "https://docs.netlify.com/api-and-cli-guides/api-guides/get-started-with-api",
+      "source_type": "website",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

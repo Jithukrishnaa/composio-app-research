@@ -1,0 +1,68 @@
+{
+  "id": 6,
+  "app": "Podio",
+  "category": "CRM and Sales",
+  "website": "https://podio.com/",
+  "description": "Podio provides a RESTful JSON API that uses OAuth2 for authentication.",
+  "auth_methods": [
+    "Server-side flow",
+    "Client-side flow",
+    "Username & password flow",
+    "App authentication flow"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Podio provides a RESTful JSON API that uses OAuth2 for authentication.",
+      "url": "https://developers.podio.com/index/api",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Podio supports four authentication flows: Server-side flow, Client-side flow, Username & password flow, and App authentication flow.",
+      "url": "https://developers.podio.com/authentication",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Podio API is RESTful and uses JSON as exchange format.",
+      "url": "https://developers.podio.com/index/api",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Credential access type is not specified in the documentation.",
+      "url": "https://developers.podio.com/authentication",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "API breadth is not specified in the documentation.",
+      "url": "https://developers.podio.com/index/api",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "MCP status is not mentioned in the documentation.",
+      "url": "https://developers.podio.com/authentication",
+      "source_type": "webpage",
+      "notes": null
+    },
+    {
+      "claim": "Buildability is not addressed in the documentation.",
+      "url": "https://developers.podio.com/index/api",
+      "source_type": "webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

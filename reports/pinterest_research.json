@@ -1,0 +1,57 @@
+{
+  "id": 38,
+  "app": "Pinterest",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.pinterest.com/",
+  "description": "Pinterest provides a developer platform that lets apps access the Pinterest API using OAuth 2 authentication.",
+  "auth_methods": [
+    "OAuth 2"
+  ],
+  "credential_access": "GATED",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Pinterest uses OAuth 2 for authentication.",
+      "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+      "source_type": "webpage",
+      "notes": "The documentation describes building a working authentication flow based on OAuth 2."
+    },
+    {
+      "claim": "Access to the Pinterest API requires a trial access request reviewed by Pinterest, indicating gated credential access.",
+      "url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "source_type": "webpage",
+      "notes": "Developers must submit a request for trial access which is reviewed each business day."
+    },
+    {
+      "claim": "Developers can register an app, obtain an app ID and secret, and configure redirect URIs, enabling them to build an integration.",
+      "url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "source_type": "webpage",
+      "notes": "Steps to register the app, get app ID/secret, and configure redirect URIs are documented."
+    },
+    {
+      "claim": "Building an app is possible after trial access approval.",
+      "url": "https://developers.pinterest.com/docs/getting-started/connect-app/",
+      "source_type": "webpage",
+      "notes": "After approval, developers can manage app details and implement authentication flows."
+    },
+    {
+      "claim": "The API breadth is not specified in the provided documentation.",
+      "url": "https://developers.pinterest.com/docs/getting-started/authentication/",
+      "source_type": "webpage",
+      "notes": "No information about the range of API endpoints or coverage is given."
+    },
+    {
+      "claim": "MCP availability is not mentioned in the provided documentation.",
+      "url": "https://developers.pinterest.com/docs/faqs/faqs/",
+      "source_type": "webpage",
+      "notes": "The FAQs do not reference MCP status."
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,18 @@
+{
+  "id": 34,
+  "app": "GoHighLevel",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://highlevel.stoplight.io/",
+  "description": "UNKNOWN",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [],
+  "confidence": 0.0,
+  "verified": false,
+  "verification_notes": null
+}

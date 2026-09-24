@@ -1,0 +1,46 @@
+{
+  "id": 7,
+  "app": "Zoho CRM",
+  "category": "CRM and Sales",
+  "website": "https://zoho.com/crm",
+  "description": "Zoho CRM provides an API that uses OAuth 2.0 for authentication.",
+  "auth_methods": [
+    "OAuth 2.0",
+    "Client Credentials"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Zoho CRM API uses OAuth 2.0 for authentication",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/oauth-overview.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Zoho CRM API supports client credentials flow for access token generation",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/client-credentials.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers obtain client ID and secret via self‑service registration",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/client-credentials.html",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Access tokens are sent as Bearer tokens in the Authorization header",
+      "url": "https://www.zoho.com/crm/developer/docs/api/v8/access-refresh.html",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

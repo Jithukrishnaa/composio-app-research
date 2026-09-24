@@ -1,0 +1,54 @@
+{
+  "id": 62,
+  "app": "Vercel",
+  "category": "Developer, Infra and Data platforms",
+  "website": "https://vercel.com/docs/rest-api",
+  "description": "Vercel offers a REST API that includes endpoints for managing authentication tokens.",
+  "auth_methods": [
+    "Access Token",
+    "SSO Token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Vercel offers a REST API that includes endpoints for managing authentication tokens.",
+      "url": "https://vercel.com/docs/rest-api/authentication",
+      "source_type": "Documentation",
+      "notes": "Endpoints listed for token creation, listing, and deletion."
+    },
+    {
+      "claim": "Authentication can be performed using Access Tokens.",
+      "url": "https://vercel.com/docs/sign-in-with-vercel/tokens",
+      "source_type": "Documentation",
+      "notes": "Access Token required to use Vercel API."
+    },
+    {
+      "claim": "Authentication can be performed using SSO Token exchange.",
+      "url": "https://vercel.com/docs/rest-api/authentication",
+      "source_type": "Documentation",
+      "notes": "POST /v1/integrations/sso/token endpoint provides SSO token exchange."
+    },
+    {
+      "claim": "Users can create authentication tokens themselves via API.",
+      "url": "https://vercel.com/docs/rest-api/authentication",
+      "source_type": "Documentation",
+      "notes": "POST /v3/user/tokens endpoint allows creation of an Auth Token."
+    },
+    {
+      "claim": "API type is REST.",
+      "url": "https://vercel.com/docs/rest-api/authentication",
+      "source_type": "Documentation",
+      "notes": "Documented as Vercel REST API reference."
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,66 @@
+{
+  "id": 43,
+  "app": "BigCommerce",
+  "category": "Ecommerce",
+  "website": "https://developer.bigcommerce.com/",
+  "description": "BigCommerce provides a platform for building storefronts, apps, and managing store data via APIs.",
+  "auth_methods": [
+    "Access Token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "REST",
+    "GraphQL"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "BigCommerce provides a platform for building storefronts, apps, and managing store data via APIs.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "BigCommerce uses access tokens for API authentication.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "API credentials can be obtained by signing up for a free trial sandbox store.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "BigCommerce offers a REST Management API.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "BigCommerce offers a GraphQL Storefront API.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "BigCommerce supports REST and GraphQL APIs for managing products, orders, customers, and store settings, indicating broad API coverage.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    },
+    {
+      "claim": "Developers can create a sandbox store and generate API credentials to build integrations.",
+      "url": "https://developer.bigcommerce.com/?ajs_aid=52c5246a-b969-4a44-b876-3b304d1cfd7c",
+      "source_type": "Documentation",
+      "notes": ""
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

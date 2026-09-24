@@ -1,0 +1,45 @@
+{
+  "id": 39,
+  "app": "Threads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.facebook.com/docs/threads",
+  "description": "Threads provides an OAuth authorization window for obtaining short-lived user access tokens.",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Threads provides an OAuth authorization window for obtaining short-lived user access tokens.",
+      "url": "https://developers.facebook.com/docs/threads/get-started/get-access-tokens-and-permissions/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication uses OAuth 2.0 authorization code flow.",
+      "url": "https://developers.facebook.com/docs/threads/get-started/get-access-tokens-and-permissions/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can self-serve to obtain access tokens via the Authorization Window.",
+      "url": "https://developers.facebook.com/docs/threads/get-started/get-access-tokens-and-permissions/",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authorization endpoint is https://threads.com/oauth/authorize.",
+      "url": "https://threads.com/oauth/authorize",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

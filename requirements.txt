@@ -1,0 +1,7 @@
+composio==0.23.0
+groq
+python-dotenv
+requests
+pydantic
+beautifulsoup4
+pandas

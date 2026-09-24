@@ -1,0 +1,55 @@
+{
+  "id": 32,
+  "app": "Meta Ads",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://developers.facebook.com/docs/marketing-apis",
+  "description": "Meta Ads provides marketing APIs that require an access token for authentication.",
+  "auth_methods": [
+    "User Access Token",
+    "System User Access Token",
+    "App Access Token",
+    "Client Token",
+    "Page Access Token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Every Marketing API call requires an access token as a parameter.",
+      "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "User access tokens can be obtained using the Graph API Explorer.",
+      "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "System user access tokens allow programmatic actions on ad objects without user re-authentication.",
+      "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "App access tokens, client tokens, page access tokens, system user access tokens, and user access tokens are supported token types.",
+      "url": "https://developers.facebook.com/docs/facebook-login/guides/access-tokens",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can self-serve credential access by obtaining tokens directly.",
+      "url": "https://developers.facebook.com/docs/marketing-api/get-started/authentication/",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

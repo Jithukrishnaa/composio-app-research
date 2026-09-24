@@ -1,0 +1,41 @@
+{
+  "id": 20,
+  "app": "Gladly",
+  "category": "Support and Helpdesk",
+  "website": "https://gladly.com/",
+  "description": "Gladly offers a RESTful API and a Lookup API for integrating customer support data, accessed via HTTPS with JSON payloads.",
+  "auth_methods": [
+    "API Token"
+  ],
+  "credential_access": "GATED",
+  "api_types": [
+    "REST"
+  ],
+  "api_breadth": "Broad",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Gladly provides a REST API accessed via HTTPS with JSON payloads.",
+      "url": "https://developer.gladly.com/rest/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Gladly offers a Lookup API that uses REST semantics and is authenticated with secure keys.",
+      "url": "https://developer.gladly.com/rest/",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "API tokens are required to use Gladly APIs and must be created by users with the API role.",
+      "url": "https://help.gladly.com/docs/generate-api-tokens-and-create-webhooks",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

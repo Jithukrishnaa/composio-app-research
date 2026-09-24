@@ -1,0 +1,41 @@
+{
+  "id": 24,
+  "app": "Lark",
+  "category": "Communications and Messaging",
+  "website": "https://open.larksuite.com/",
+  "description": "Lark uses access‑token based authentication for its Open Platform APIs, enabling apps to perform read and write operations on resources.",
+  "auth_methods": [
+    "tenant_access_token",
+    "user_access_token",
+    "app_access_token"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Lark uses access tokens (tenant_access_token, user_access_token, app_access_token) to authenticate API calls and determine permissions",
+      "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can automatically obtain authentication credentials via API Explorer with one click, indicating self‑serve credential access",
+      "url": "https://open.larksuite.com/document/tools-and-resources/api-explorer-guide",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Access tokens allow apps to read and write data on Lark resources",
+      "url": "https://open.larksuite.com/document/server-docs/getting-started/api-access-token/app-access-token-development-guide",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

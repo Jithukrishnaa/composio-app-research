@@ -1,0 +1,40 @@
+{
+  "id": 19,
+  "app": "Gorgias",
+  "category": "Support and Helpdesk",
+  "website": "https://gorgias.com/",
+  "description": "UNKNOWN",
+  "auth_methods": [
+    "API key",
+    "OAuth2"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Gorgias API supports API key authentication for private apps",
+      "url": "https://developers.gorgias.com/reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Gorgias API supports OAuth2 authentication for public apps",
+      "url": "https://developers.gorgias.com/reference/authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth2 is mandatory for public apps to be approved",
+      "url": "https://developers.gorgias.com/docs/oauth2-bearer-token",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.6,
+  "verified": false,
+  "verification_notes": null
+}

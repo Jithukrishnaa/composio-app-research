@@ -1,0 +1,46 @@
+{
+  "id": 2,
+  "app": "HubSpot",
+  "category": "CRM and Sales",
+  "website": "https://hubspot.com/",
+  "description": "HubSpot provides OAuth and private app access tokens for authenticating API requests.",
+  "auth_methods": [
+    "OAuth",
+    "Private Access Token"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "HubSpot supports OAuth authentication for apps distributed to multiple accounts or listed on the Marketplace.",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "HubSpot also supports private app access tokens for single-account installations.",
+      "url": "https://developers.hubspot.com/docs/apps/legacy-apps/authentication/intro-to-auth",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "Developers can build HubSpot apps using the HubSpot CLI for local authentication tooling.",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "source_type": "Documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth-based HubSpot apps require a backend service, which can be hosted in a Docker instance.",
+      "url": "https://developers.hubspot.com/docs/apps/developer-platform/build-apps/authentication/overview",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

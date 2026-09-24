@@ -1,0 +1,55 @@
+{
+  "id": 1,
+  "app": "Salesforce",
+  "category": "CRM and Sales",
+  "website": "https://salesforce.com/",
+  "description": "Salesforce provides OAuth 2.0 authorization for its REST and SOAP APIs.",
+  "auth_methods": [
+    "OAuth 2.0",
+    "OpenID Connect"
+  ],
+  "credential_access": "UNKNOWN",
+  "api_types": [
+    "REST",
+    "SOAP"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Salesforce provides OAuth 2.0 authorization for its REST API.",
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_oauth_and_connected_apps.htm",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Salesforce provides OAuth 2.0 authorization for its SOAP API.",
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api.meta/api/sforce_api_oauth_and_connected_apps.htm",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "OAuth is used to authorize client applications to access protected resources in Salesforce.",
+      "url": "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_authenticate.htm&language=en_US&type=5",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "OpenID Connect can be used for authentication alongside OAuth in Salesforce.",
+      "url": "https://help.salesforce.com/s/articleView?id=sf.remoteaccess_authenticate.htm&language=en_US&type=5",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Salesforce offers both REST and SOAP APIs for programmatic access.",
+      "url": "https://developer.salesforce.com/docs/atlas.en-us.api_rest.meta/api_rest/intro_oauth_and_connected_apps.htm",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.7,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,61 @@
+{
+  "id": 40,
+  "app": "SendGrid",
+  "category": "Marketing, Ads, Email and Social",
+  "website": "https://sendgrid.com/",
+  "description": "SendGrid provides an email sending service via its Mail Send API, requiring API keys and two-factor authentication.",
+  "auth_methods": [
+    "API Key",
+    "SMS",
+    "Authy app"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [
+    "Mail Send"
+  ],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "SendGrid provides an email sending service via its Mail Send API.",
+      "url": "https://docs.sendgrid.com/for-developers/sending-email/email-quickstart-for-java",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Authentication uses API keys; HTTP Basic authentication is not accepted when 2FA is enabled.",
+      "url": "https://docs.sendgrid.com/glossary/two-factor-authentication",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "Two-factor authentication can be enabled via SMS or Authy app.",
+      "url": "https://docs.sendgrid.com/for-developers/sending-email/email-quickstart-for-java",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "SendGrid accounts can be created via a free trial sign‑up, allowing self‑serve access.",
+      "url": "https://docs.sendgrid.com/for-developers/sending-email/email-quickstart-for-java",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "The available API type is Mail Send for sending emails.",
+      "url": "https://docs.sendgrid.com/for-developers/sending-email/email-quickstart-for-java",
+      "source_type": "documentation",
+      "notes": null
+    },
+    {
+      "claim": "The service can be built using the Mail Send API as demonstrated in the quickstart guide.",
+      "url": "https://docs.sendgrid.com/for-developers/sending-email/email-quickstart-for-java",
+      "source_type": "documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.75,
+  "verified": false,
+  "verification_notes": null
+}

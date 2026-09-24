@@ -1,0 +1,25 @@
+{
+  "id": 47,
+  "app": "Ecwid",
+  "category": "Ecommerce",
+  "website": "https://api-docs.ecwid.com/",
+  "description": "Ecwid offers a website builder (Instant Site) and developer tools for creating custom site themes and sections.",
+  "auth_methods": [],
+  "credential_access": "UNKNOWN",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Ecwid offers a website builder (Instant Site) and developer tools for creating custom site themes and sections.",
+      "url": "https://api-docs.ecwid.com/docs/intro-to-site-templates",
+      "source_type": "Documentation",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

@@ -1,0 +1,40 @@
+{
+  "id": 12,
+  "app": "Intercom",
+  "category": "Support and Helpdesk",
+  "website": "https://intercom.com/",
+  "description": "UNKNOWN",
+  "auth_methods": [
+    "Access Token",
+    "OAuth"
+  ],
+  "credential_access": "SELF_SERVE",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "UNKNOWN",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "Intercom supports Access Token authentication for private apps.",
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "source_type": "Webpage",
+      "notes": null
+    },
+    {
+      "claim": "Intercom supports OAuth authentication for public apps.",
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "source_type": "Webpage",
+      "notes": null
+    },
+    {
+      "claim": "Access Tokens are provided automatically upon app creation, indicating self-serve credential access.",
+      "url": "https://developers.intercom.com/docs/build-an-integration/learn-more/authentication",
+      "source_type": "Webpage",
+      "notes": null
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}

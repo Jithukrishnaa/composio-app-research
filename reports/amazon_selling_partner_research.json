@@ -1,0 +1,39 @@
+{
+  "id": 49,
+  "app": "Amazon Selling Partner",
+  "category": "Ecommerce",
+  "website": "https://developer-docs.amazon.com/sp-api/",
+  "description": "The Amazon Selling Partner API enables applications to call SP-API on behalf of selling partners after authorization.",
+  "auth_methods": [
+    "OAuth 2.0"
+  ],
+  "credential_access": "GATED",
+  "api_types": [],
+  "api_breadth": "UNKNOWN",
+  "mcp_status": "UNKNOWN",
+  "buildability": "POSSIBLE",
+  "main_blocker": null,
+  "evidence": [
+    {
+      "claim": "The Amazon Selling Partner API allows applications to call the SP-API on behalf of selling partners after authorization.",
+      "url": "https://developer-docs.amazon.com/sp-api/docs/authorize-public-applications",
+      "source_type": "documentation",
+      "notes": "Describes public application authorization flow."
+    },
+    {
+      "claim": "Public applications must use OAuth 2.0 through Login with Amazon (LWA) for authorization.",
+      "url": "https://developer-docs.amazon.com/sp-api/docs/onboarding-step-6-set-up-the-authorization-workflow",
+      "source_type": "documentation",
+      "notes": "Specifies OAuth 2.0 required for public apps."
+    },
+    {
+      "claim": "Private applications can self-authorize using Solution Provider Portal, Seller Central, or Vendor Central.",
+      "url": "https://developer-docs.amazon.com/sp-api/lang-US/docs/self-authorization",
+      "source_type": "documentation",
+      "notes": "Describes self-authorization workflow for private apps."
+    }
+  ],
+  "confidence": 0.8,
+  "verified": false,
+  "verification_notes": null
+}
